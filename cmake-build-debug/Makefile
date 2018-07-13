@@ -124,6 +124,87 @@ GPEC\fast:
 	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\build
 .PHONY : GPEC\fast
 
+Datastructs\Node.obj: Datastructs\Node.cpp.obj
+
+.PHONY : Datastructs\Node.obj
+
+# target to build an object file
+Datastructs\Node.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj
+.PHONY : Datastructs\Node.cpp.obj
+
+Datastructs\Node.i: Datastructs\Node.cpp.i
+
+.PHONY : Datastructs\Node.i
+
+# target to preprocess a source file
+Datastructs\Node.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Node.cpp.i
+.PHONY : Datastructs\Node.cpp.i
+
+Datastructs\Node.s: Datastructs\Node.cpp.s
+
+.PHONY : Datastructs\Node.s
+
+# target to generate assembly for a file
+Datastructs\Node.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Node.cpp.s
+.PHONY : Datastructs\Node.cpp.s
+
+Datastructs\Queue.obj: Datastructs\Queue.cpp.obj
+
+.PHONY : Datastructs\Queue.obj
+
+# target to build an object file
+Datastructs\Queue.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj
+.PHONY : Datastructs\Queue.cpp.obj
+
+Datastructs\Queue.i: Datastructs\Queue.cpp.i
+
+.PHONY : Datastructs\Queue.i
+
+# target to preprocess a source file
+Datastructs\Queue.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.i
+.PHONY : Datastructs\Queue.cpp.i
+
+Datastructs\Queue.s: Datastructs\Queue.cpp.s
+
+.PHONY : Datastructs\Queue.s
+
+# target to generate assembly for a file
+Datastructs\Queue.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.s
+.PHONY : Datastructs\Queue.cpp.s
+
+Datastructs\Stack.obj: Datastructs\Stack.cpp.obj
+
+.PHONY : Datastructs\Stack.obj
+
+# target to build an object file
+Datastructs\Stack.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj
+.PHONY : Datastructs\Stack.cpp.obj
+
+Datastructs\Stack.i: Datastructs\Stack.cpp.i
+
+.PHONY : Datastructs\Stack.i
+
+# target to preprocess a source file
+Datastructs\Stack.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.i
+.PHONY : Datastructs\Stack.cpp.i
+
+Datastructs\Stack.s: Datastructs\Stack.cpp.s
+
+.PHONY : Datastructs\Stack.s
+
+# target to generate assembly for a file
+Datastructs\Stack.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.s
+.PHONY : Datastructs\Stack.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +241,15 @@ help:
 	@echo ... GPEC
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Datastructs/Node.obj
+	@echo ... Datastructs/Node.i
+	@echo ... Datastructs/Node.s
+	@echo ... Datastructs/Queue.obj
+	@echo ... Datastructs/Queue.i
+	@echo ... Datastructs/Queue.s
+	@echo ... Datastructs/Stack.obj
+	@echo ... Datastructs/Stack.i
+	@echo ... Datastructs/Stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

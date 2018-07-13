@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GPEC.dir/main.cpp.obj"
+  "CMakeFiles/GPEC.dir/Datastructs/Stack.cpp.obj"
+  "CMakeFiles/GPEC.dir/Datastructs/Node.cpp.obj"
+  "CMakeFiles/GPEC.dir/Datastructs/Queue.cpp.obj"
   "GPEC.pdb"
   "GPEC.exe"
   "GPEC.exe.manifest"

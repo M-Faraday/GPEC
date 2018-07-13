@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Node.cpp" "E:/Rudolph/Documents/Projekte/GPEC/cmake-build-debug/CMakeFiles/GPEC.dir/Datastructs/Node.cpp.obj"
+  "E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Queue.cpp" "E:/Rudolph/Documents/Projekte/GPEC/cmake-build-debug/CMakeFiles/GPEC.dir/Datastructs/Queue.cpp.obj"
+  "E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Stack.cpp" "E:/Rudolph/Documents/Projekte/GPEC/cmake-build-debug/CMakeFiles/GPEC.dir/Datastructs/Stack.cpp.obj"
   "E:/Rudolph/Documents/Projekte/GPEC/main.cpp" "E:/Rudolph/Documents/Projekte/GPEC/cmake-build-debug/CMakeFiles/GPEC.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

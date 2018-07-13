@@ -88,17 +88,113 @@ CMakeFiles\GPEC.dir\main.cpp.obj.provides: CMakeFiles\GPEC.dir\main.cpp.obj.requ
 CMakeFiles\GPEC.dir\main.cpp.obj.provides.build: CMakeFiles\GPEC.dir\main.cpp.obj
 
 
+CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj: CMakeFiles\GPEC.dir\flags.make
+CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj: ..\Datastructs\Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GPEC.dir/Datastructs/Stack.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Stack.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Datastructs/Stack.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Stack.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Datastructs/Stack.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Datastructs\Stack.cpp.s /c E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Stack.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.requires:
+
+.PHONY : CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.requires
+
+CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.provides: CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.provides.build
+.PHONY : CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.provides
+
+CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj
+
+
+CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj: CMakeFiles\GPEC.dir\flags.make
+CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj: ..\Datastructs\Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GPEC.dir/Datastructs/Node.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Node.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Datastructs/Node.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Datastructs\Node.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Node.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Datastructs/Node.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Datastructs\Node.cpp.s /c E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Node.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.requires:
+
+.PHONY : CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.requires
+
+CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.provides: CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.provides.build
+.PHONY : CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.provides
+
+CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj
+
+
+CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj: CMakeFiles\GPEC.dir\flags.make
+CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj: ..\Datastructs\Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GPEC.dir/Datastructs/Queue.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Queue.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Datastructs/Queue.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Queue.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Datastructs/Queue.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Datastructs\Queue.cpp.s /c E:\Rudolph\Documents\Projekte\GPEC\Datastructs\Queue.cpp
+<<
+
+CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.requires:
+
+.PHONY : CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.requires
+
+CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.provides: CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.provides.build
+.PHONY : CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.provides
+
+CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj
+
+
 # Object files for target GPEC
 GPEC_OBJECTS = \
-"CMakeFiles\GPEC.dir\main.cpp.obj"
+"CMakeFiles\GPEC.dir\main.cpp.obj" \
+"CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj" \
+"CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj" \
+"CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj"
 
 # External object files for target GPEC
 GPEC_EXTERNAL_OBJECTS =
 
 GPEC.exe: CMakeFiles\GPEC.dir\main.cpp.obj
+GPEC.exe: CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj
+GPEC.exe: CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj
+GPEC.exe: CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj
 GPEC.exe: CMakeFiles\GPEC.dir\build.make
 GPEC.exe: CMakeFiles\GPEC.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GPEC.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GPEC.exe"
 	"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\GPEC.dir --manifests  -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\GPEC.dir\objects1.rsp @<<
  /out:GPEC.exe /implib:GPEC.lib /pdb:E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\GPEC.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
@@ -109,6 +205,9 @@ CMakeFiles\GPEC.dir\build: GPEC.exe
 .PHONY : CMakeFiles\GPEC.dir\build
 
 CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\main.cpp.obj.requires
+CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Datastructs\Stack.cpp.obj.requires
+CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Datastructs\Node.cpp.obj.requires
+CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Datastructs\Queue.cpp.obj.requires
 
 .PHONY : CMakeFiles\GPEC.dir\requires
 

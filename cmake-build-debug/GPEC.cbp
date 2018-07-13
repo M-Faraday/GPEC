@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Node.cpp">
+			<Option target="GPEC"/>
+		</Unit>
+		<Unit filename="E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Node.h">
+			<Option target="GPEC"/>
+		</Unit>
+		<Unit filename="E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Queue.cpp">
+			<Option target="GPEC"/>
+		</Unit>
+		<Unit filename="E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Queue.h">
+			<Option target="GPEC"/>
+		</Unit>
+		<Unit filename="E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Stack.cpp">
+			<Option target="GPEC"/>
+		</Unit>
+		<Unit filename="E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Stack.h">
+			<Option target="GPEC"/>
+		</Unit>
 		<Unit filename="E:/Rudolph/Documents/Projekte/GPEC/main.cpp">
 			<Option target="GPEC"/>
 		</Unit>
