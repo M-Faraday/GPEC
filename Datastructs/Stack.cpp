@@ -3,6 +3,14 @@
 //
 
 #include "Stack.h"
+#include <string>
+#include <iostream>
+
+template<class T>
+Stack<T>::Stack() {
+    head = nullptr;
+}
+
 template<class T>
 Stack<T>::Stack(const Stack<T>& other) {
     if (other.head) {
@@ -18,4 +26,44 @@ Stack<T>::Stack(const Stack<T>& other) {
         }
     } else
         head = nullptr;
+}
+
+template<class T>
+void Stack<T>::push(T* element) {
+    Node<T>* nNode = new Node<T>(element);
+    if (head) {
+        nNode->next = head;
+    }
+    head = nNode;
+}
+
+template<class T>
+T* Stack<T>::pop(){
+    if (head) {
+        T* temp = head->element;
+        Node<T>* tempPtr = head;
+        head = head->next;
+        delete tempPtr;
+        return temp;
+    } else {
+        throw "Popped empty stack";
+    }
+}
+
+template<class T>
+bool Stack<T>::isEmpty(){
+    if (head)
+        return false;
+    else
+        return true;
+}
+
+template<class T>
+std::ostream &operator<<(std::ostream &os, const Stack<T> &stack) {
+    Node<T>* nodePtr = stack.head;
+    while (nodePtr != nullptr) {
+        os << *(nodePtr->element) << " ";
+        nodePtr = nodePtr->next;
+    }
+    return os;
 }

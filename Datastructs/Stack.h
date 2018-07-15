@@ -5,16 +5,21 @@
 #ifndef GPEC_STACK_H
 #define GPEC_STACK_H
 
-#include "Node.h"
+#include <iostream>
+#include "Node.cpp"
+#include <string>
 
 template<class T>
 class Stack {
 public:
-    Stack();
-
-    void push(Node<T> node);
+    void push(T* element);
 
     Stack(const Stack<T>& other);
+
+    Stack();
+
+    template<class T>
+    friend std::ostream &operator<<(std::ostream &os, const Stack<T> &stack);
 
     T* pop();
 
@@ -22,6 +27,5 @@ public:
 private:
     Node<T> *head = nullptr;
 };
-
 
 #endif //GPEC_STACK_H

@@ -8,6 +8,6 @@ Node<T>::Node(T *Element):element(Element) {}
 
 template<class T>
 Node<T>::~Node() {
-    delete element;
+    element = nullptr;
     next = nullptr;
 }

@@ -1,6 +1,7 @@
 #include <iostream>
+#include "Datastructs/Stack.cpp"
 
 int main() {
-    std::cout << "Hello!" << std::endl;
+    Stack<int> Test;
     return 0;
 }
