@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.cpp
+Node.h
+/mnt/c/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
+
+/mnt/c/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
+
+/mnt/c/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Queue.cpp
+Queue.h
+/mnt/c/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Queue.h
+string
+-
+iostream
+-
+
+/mnt/c/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Queue.h
+iostream
+-
+Node.h
+/mnt/c/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
+string
+-
+
