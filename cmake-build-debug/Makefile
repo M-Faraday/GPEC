@@ -124,6 +124,33 @@ GPEC\fast:
 	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\build
 .PHONY : GPEC\fast
 
+Calculator\Calculator.obj: Calculator\Calculator.cpp.obj
+
+.PHONY : Calculator\Calculator.obj
+
+# target to build an object file
+Calculator\Calculator.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj
+.PHONY : Calculator\Calculator.cpp.obj
+
+Calculator\Calculator.i: Calculator\Calculator.cpp.i
+
+.PHONY : Calculator\Calculator.i
+
+# target to preprocess a source file
+Calculator\Calculator.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.i
+.PHONY : Calculator\Calculator.cpp.i
+
+Calculator\Calculator.s: Calculator\Calculator.cpp.s
+
+.PHONY : Calculator\Calculator.s
+
+# target to generate assembly for a file
+Calculator\Calculator.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.s
+.PHONY : Calculator\Calculator.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... GPEC
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Calculator/Calculator.obj
+	@echo ... Calculator/Calculator.i
+	@echo ... Calculator/Calculator.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -60,7 +60,7 @@ void Stack<T>::push(T element) {
 template<class T>
 T Stack<T>::pop(){
     if (head) {
-        T* temp = head->element;
+        T temp = head->element;
         Node<T>* tempPtr = head;
         head = head->next;
         delete tempPtr;

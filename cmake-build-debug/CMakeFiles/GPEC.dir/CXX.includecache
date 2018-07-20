@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.cpp
+Calculator.h
+C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.h
+
+C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.h
+iostream
+-
+string
+-
+
 C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
 
 C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Queue.h
@@ -16,11 +26,21 @@ C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
 string
 -
 
+C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Stack.h
+iostream
+-
+Node.h
+C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
+string
+-
+
 C:/Users/Rudolph/Documents/GitHub/GPEC/main.cpp
 iostream
 -
+Datastructs/Stack.h
+C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Stack.h
 Datastructs/Queue.h
 C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Queue.h
-Datastructs/Node.h
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
+Calculator/Calculator.h
+C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.h
 

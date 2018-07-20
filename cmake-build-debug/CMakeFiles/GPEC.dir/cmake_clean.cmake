@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GPEC.dir/main.cpp.obj"
+  "CMakeFiles/GPEC.dir/Calculator/Calculator.cpp.obj"
   "GPEC.pdb"
   "GPEC.exe"
   "GPEC.exe.manifest"

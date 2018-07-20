@@ -3,6 +3,6 @@ project(GPEC)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(GPEC main.cpp Datastructs/Stack.h Datastructs/Node.h Datastructs/Queue.h)
+add_executable(GPEC main.cpp Datastructs/Stack.h Datastructs/Node.h Datastructs/Queue.h Calculator/Calculator.cpp Calculator/Calculator.h)
 
 

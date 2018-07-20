@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.cpp">
+			<Option target="GPEC"/>
+		</Unit>
+		<Unit filename="C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.h">
+			<Option target="GPEC"/>
+		</Unit>
 		<Unit filename="C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h">
 			<Option target="GPEC"/>
 		</Unit>
