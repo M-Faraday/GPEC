@@ -6,41 +6,43 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.cpp
+E:/Rudolph/Documents/Projekte/GPEC/Calculator/Calculator.cpp
 Calculator.h
-C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.h
+E:/Rudolph/Documents/Projekte/GPEC/Calculator/Calculator.h
+../Datastructs/Queue.h
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Queue.h
 
-C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.h
+E:/Rudolph/Documents/Projekte/GPEC/Calculator/Calculator.h
 iostream
 -
 string
 -
 
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Node.h
 
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Queue.h
-iostream
--
-Node.h
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
-string
--
-
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Stack.h
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Queue.h
 iostream
 -
 Node.h
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Node.h
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Node.h
 string
 -
 
-C:/Users/Rudolph/Documents/GitHub/GPEC/main.cpp
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Stack.h
+iostream
+-
+Node.h
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Node.h
+string
+-
+
+E:/Rudolph/Documents/Projekte/GPEC/main.cpp
 iostream
 -
 Datastructs/Stack.h
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Stack.h
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Stack.h
 Datastructs/Queue.h
-C:/Users/Rudolph/Documents/GitHub/GPEC/Datastructs/Queue.h
+E:/Rudolph/Documents/Projekte/GPEC/Datastructs/Queue.h
 Calculator/Calculator.h
-C:/Users/Rudolph/Documents/GitHub/GPEC/Calculator/Calculator.h
+E:/Rudolph/Documents/Projekte/GPEC/Calculator/Calculator.h
 

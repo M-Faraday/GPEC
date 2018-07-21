@@ -9,7 +9,7 @@ int main() {
     do {
         try {
             std::cin >> Test;
-            Test.evaluate();
+            Test.preprocess();
             std::cout << Test << std::endl;
         } catch (char const * errMessage) {
             std::cout << errMessage << std::endl;

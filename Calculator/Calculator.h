@@ -9,15 +9,18 @@
 #include <iostream>
 #include <string>
 
+
 class Calculator {
 public:
     Calculator();
-    int evaluate();
+    std::string evaluate(std::string input);
+    int preprocess();
     bool isDone();
     friend std::ostream &operator<<(std::ostream &os, Calculator &calculator);
     friend std::istream &operator>>(std::istream &is, Calculator &calculator);
-
+    int settings(std::string input);
 private:
+    int idToken(char c);
     std::string inBuffer, outBuffer;
     bool done;
 };

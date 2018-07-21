@@ -3,6 +3,8 @@
 
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj: ..\Calculator\Calculator.cpp
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj: ..\Calculator\Calculator.h
+CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj: ..\Datastructs\Node.h
+CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj: ..\Datastructs\Queue.h
 
 CMakeFiles\GPEC.dir\main.cpp.obj: ..\Calculator\Calculator.h
 CMakeFiles\GPEC.dir\main.cpp.obj: ..\Datastructs\Node.h

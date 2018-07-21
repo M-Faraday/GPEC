@@ -29,6 +29,9 @@ public:
     T pop();
 
     bool isEmpty();
+
+    std::string toString();
+
 private:
     Node<T> *head = nullptr;
     Node<T> *tail = nullptr;
@@ -100,6 +103,17 @@ std::ostream &operator<<(std::ostream &os, const Queue<T> &queue) {
         nodePtr = nodePtr->next;
     }
     return os;
+}
+
+template<class T>
+std::string Queue<T>::toString() {
+    std::string out;
+    Node<T>* nodePtr = head;
+    while (nodePtr != nullptr) {
+        out += nodePtr->element + " ";
+        nodePtr = nodePtr->next;
+    }
+    return out;
 }
 
 #endif //GPEC_QUEUE_H

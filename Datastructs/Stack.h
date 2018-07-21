@@ -10,6 +10,12 @@
 #include <string>
 
 template<class T>
+class Stack;
+
+template<class T>
+std::ostream& operator<<(std::ostream&,const Stack<T>&);
+
+template<class T>
 class Stack {
 public:
     void push(T element);
@@ -18,8 +24,7 @@ public:
 
     Stack();
 
-    template<class T>
-    friend std::ostream &operator<<(std::ostream &os, const Stack<T> &stack);
+    friend std::ostream &operator<< <T>(std::ostream &os, const Stack<T> &stack);
 
     T pop();
 

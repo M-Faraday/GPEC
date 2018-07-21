@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Rudolph/Documents/GitHub/GPEC
+# Install script for directory: E:/Rudolph/Documents/Projekte/GPEC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Rudolph/Documents/GitHub/GPEC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Rudolph/Documents/Projekte/GPEC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
