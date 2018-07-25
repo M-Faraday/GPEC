@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1.6\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Rudolph\Documents\Projekte\GPEC
+CMAKE_SOURCE_DIR = C:\Users\Rudolph\Documents\GitHub\GPEC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -151,6 +151,114 @@ Calculator\Calculator.cpp.s:
 	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.s
 .PHONY : Calculator\Calculator.cpp.s
 
+Calculator\Token.obj: Calculator\Token.cpp.obj
+
+.PHONY : Calculator\Token.obj
+
+# target to build an object file
+Calculator\Token.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj
+.PHONY : Calculator\Token.cpp.obj
+
+Calculator\Token.i: Calculator\Token.cpp.i
+
+.PHONY : Calculator\Token.i
+
+# target to preprocess a source file
+Calculator\Token.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Token.cpp.i
+.PHONY : Calculator\Token.cpp.i
+
+Calculator\Token.s: Calculator\Token.cpp.s
+
+.PHONY : Calculator\Token.s
+
+# target to generate assembly for a file
+Calculator\Token.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Token.cpp.s
+.PHONY : Calculator\Token.cpp.s
+
+Calculator\TokenTypes\Operators.obj: Calculator\TokenTypes\Operators.cpp.obj
+
+.PHONY : Calculator\TokenTypes\Operators.obj
+
+# target to build an object file
+Calculator\TokenTypes\Operators.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj
+.PHONY : Calculator\TokenTypes\Operators.cpp.obj
+
+Calculator\TokenTypes\Operators.i: Calculator\TokenTypes\Operators.cpp.i
+
+.PHONY : Calculator\TokenTypes\Operators.i
+
+# target to preprocess a source file
+Calculator\TokenTypes\Operators.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.i
+.PHONY : Calculator\TokenTypes\Operators.cpp.i
+
+Calculator\TokenTypes\Operators.s: Calculator\TokenTypes\Operators.cpp.s
+
+.PHONY : Calculator\TokenTypes\Operators.s
+
+# target to generate assembly for a file
+Calculator\TokenTypes\Operators.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.s
+.PHONY : Calculator\TokenTypes\Operators.cpp.s
+
+Calculator\TokenTypes\Term.obj: Calculator\TokenTypes\Term.cpp.obj
+
+.PHONY : Calculator\TokenTypes\Term.obj
+
+# target to build an object file
+Calculator\TokenTypes\Term.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj
+.PHONY : Calculator\TokenTypes\Term.cpp.obj
+
+Calculator\TokenTypes\Term.i: Calculator\TokenTypes\Term.cpp.i
+
+.PHONY : Calculator\TokenTypes\Term.i
+
+# target to preprocess a source file
+Calculator\TokenTypes\Term.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.i
+.PHONY : Calculator\TokenTypes\Term.cpp.i
+
+Calculator\TokenTypes\Term.s: Calculator\TokenTypes\Term.cpp.s
+
+.PHONY : Calculator\TokenTypes\Term.s
+
+# target to generate assembly for a file
+Calculator\TokenTypes\Term.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.s
+.PHONY : Calculator\TokenTypes\Term.cpp.s
+
+Calculator\TokenTypes\ValueTypes\Real.obj: Calculator\TokenTypes\ValueTypes\Real.cpp.obj
+
+.PHONY : Calculator\TokenTypes\ValueTypes\Real.obj
+
+# target to build an object file
+Calculator\TokenTypes\ValueTypes\Real.cpp.obj:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj
+.PHONY : Calculator\TokenTypes\ValueTypes\Real.cpp.obj
+
+Calculator\TokenTypes\ValueTypes\Real.i: Calculator\TokenTypes\ValueTypes\Real.cpp.i
+
+.PHONY : Calculator\TokenTypes\ValueTypes\Real.i
+
+# target to preprocess a source file
+Calculator\TokenTypes\ValueTypes\Real.cpp.i:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.i
+.PHONY : Calculator\TokenTypes\ValueTypes\Real.cpp.i
+
+Calculator\TokenTypes\ValueTypes\Real.s: Calculator\TokenTypes\ValueTypes\Real.cpp.s
+
+.PHONY : Calculator\TokenTypes\ValueTypes\Real.s
+
+# target to generate assembly for a file
+Calculator\TokenTypes\ValueTypes\Real.cpp.s:
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.s
+.PHONY : Calculator\TokenTypes\ValueTypes\Real.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -190,6 +298,18 @@ help:
 	@echo ... Calculator/Calculator.obj
 	@echo ... Calculator/Calculator.i
 	@echo ... Calculator/Calculator.s
+	@echo ... Calculator/Token.obj
+	@echo ... Calculator/Token.i
+	@echo ... Calculator/Token.s
+	@echo ... Calculator/TokenTypes/Operators.obj
+	@echo ... Calculator/TokenTypes/Operators.i
+	@echo ... Calculator/TokenTypes/Operators.s
+	@echo ... Calculator/TokenTypes/Term.obj
+	@echo ... Calculator/TokenTypes/Term.i
+	@echo ... Calculator/TokenTypes/Term.s
+	@echo ... Calculator/TokenTypes/ValueTypes/Real.obj
+	@echo ... Calculator/TokenTypes/ValueTypes/Real.i
+	@echo ... Calculator/TokenTypes/ValueTypes/Real.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

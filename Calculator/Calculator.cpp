@@ -3,7 +3,6 @@
 //
 
 #include "Calculator.h"
-#include "../Datastructs/Queue.h"
 
 Calculator::Calculator() {
     inBuffer = "";
@@ -15,7 +14,6 @@ std::ostream &operator<<(std::ostream &os, Calculator &calculator) {
     os << calculator.outBuffer;
     calculator.outBuffer = "";
     return os;
-
 }
 
 std::istream &operator>>(std:: istream &is, Calculator &calculator) {
@@ -27,7 +25,7 @@ int Calculator::preprocess(){
     if ((inBuffer.length() > 0)&&(inBuffer[0] == '$')) {
         outBuffer = settings(inBuffer);
         inBuffer = "";
-        return settings(outBuffer);
+        return 0;
     } else if (inBuffer.length() != 0) {
         outBuffer = evaluate(inBuffer);
         inBuffer = "";
@@ -41,7 +39,7 @@ bool Calculator::isDone() {
     return done;
 }
 
-int Calculator::settings(std::string input) {
+std::string Calculator::settings(std::string input) {
     //TODO $MODE
     //TODO $LOAD
     //TODO $DEFINE
@@ -59,9 +57,9 @@ std::string Calculator::evaluate(std::string input){
         }
     }
     int prevType = NULL;
-    std::string tToken = "";
+    std::string tToken;
     for (int i = 0; i < temp.length(); ++i) {
-        if ((idToken(temp[i]) != prevType)&&(tToken != "")) {
+        if ((idToken(temp[i]) != prevType)&&(!tToken.empty())) {
             tokens.push(tToken);
             tToken = "";
             tToken += temp[i];
@@ -70,7 +68,7 @@ std::string Calculator::evaluate(std::string input){
         }
         prevType = idToken(temp[i]);
     }
-    if (tToken != "") {
+    if (!tToken.empty()) {
         tokens.push(tToken);
         tToken = "";
     }

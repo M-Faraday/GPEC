@@ -8,7 +8,8 @@
 
 #include <iostream>
 #include <string>
-
+#include "../Datastructs/Queue.h"
+#include "Token.h"
 
 class Calculator {
 public:
@@ -18,7 +19,7 @@ public:
     bool isDone();
     friend std::ostream &operator<<(std::ostream &os, Calculator &calculator);
     friend std::istream &operator>>(std::istream &is, Calculator &calculator);
-    int settings(std::string input);
+    std::string settings(std::string input);
 private:
     int idToken(char c);
     std::string inBuffer, outBuffer;

@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1.6\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Rudolph\Documents\Projekte\GPEC
+CMAKE_SOURCE_DIR = C:\Users\Rudolph\Documents\GitHub\GPEC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\GPEC.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\GPEC.dir\flags.make
 
 CMakeFiles\GPEC.dir\main.cpp.obj: CMakeFiles\GPEC.dir\flags.make
 CMakeFiles\GPEC.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GPEC.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GPEC.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\main.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c E:\Rudolph\Documents\Projekte\GPEC\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\main.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c C:\Users\Rudolph\Documents\GitHub\GPEC\main.cpp
 <<
 
 CMakeFiles\GPEC.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/main.cpp.i"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Rudolph\Documents\Projekte\GPEC\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Rudolph\Documents\GitHub\GPEC\main.cpp
 <<
 
 CMakeFiles\GPEC.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\main.cpp.s /c E:\Rudolph\Documents\Projekte\GPEC\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\main.cpp.s /c C:\Users\Rudolph\Documents\GitHub\GPEC\main.cpp
 <<
 
 CMakeFiles\GPEC.dir\main.cpp.obj.requires:
@@ -90,21 +90,21 @@ CMakeFiles\GPEC.dir\main.cpp.obj.provides.build: CMakeFiles\GPEC.dir\main.cpp.ob
 
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj: CMakeFiles\GPEC.dir\flags.make
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj: ..\Calculator\Calculator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GPEC.dir/Calculator/Calculator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GPEC.dir/Calculator/Calculator.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c E:\Rudolph\Documents\Projekte\GPEC\Calculator\Calculator.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\Calculator.cpp
 <<
 
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Calculator/Calculator.cpp.i"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Rudolph\Documents\Projekte\GPEC\Calculator\Calculator.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\Calculator.cpp
 <<
 
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Calculator/Calculator.cpp.s"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Calculator\Calculator.cpp.s /c E:\Rudolph\Documents\Projekte\GPEC\Calculator\Calculator.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Calculator\Calculator.cpp.s /c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\Calculator.cpp
 <<
 
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj.requires:
@@ -118,21 +118,149 @@ CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj.provides: CMakeFiles\GPEC.dir\
 CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj
 
 
+CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj: CMakeFiles\GPEC.dir\flags.make
+CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj: ..\Calculator\Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GPEC.dir/Calculator/Token.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Calculator\Token.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\Token.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\Token.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Calculator/Token.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Calculator\Token.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\Token.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\Token.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Calculator/Token.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Calculator\Token.cpp.s /c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\Token.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.requires:
+
+.PHONY : CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.requires
+
+CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.provides: CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.provides.build
+.PHONY : CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.provides
+
+CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj
+
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj: CMakeFiles\GPEC.dir\flags.make
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj: ..\Calculator\TokenTypes\Term.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GPEC.dir/Calculator/TokenTypes/Term.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\Term.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Calculator/TokenTypes/Term.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\Term.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Calculator/TokenTypes/Term.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.s /c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\Term.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.requires:
+
+.PHONY : CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.requires
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.provides: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.provides.build
+.PHONY : CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.provides
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj
+
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj: CMakeFiles\GPEC.dir\flags.make
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj: ..\Calculator\TokenTypes\Operators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GPEC.dir/Calculator/TokenTypes/Operators.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\Operators.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Calculator/TokenTypes/Operators.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\Operators.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Calculator/TokenTypes/Operators.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.s /c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\Operators.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.requires:
+
+.PHONY : CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.requires
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.provides: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.provides.build
+.PHONY : CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.provides
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj
+
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj: CMakeFiles\GPEC.dir\flags.make
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj: ..\Calculator\TokenTypes\ValueTypes\Real.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GPEC.dir/Calculator/TokenTypes/ValueTypes/Real.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj /FdCMakeFiles\GPEC.dir\ /FS -c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\ValueTypes\Real.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GPEC.dir/Calculator/TokenTypes/ValueTypes/Real.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\ValueTypes\Real.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GPEC.dir/Calculator/TokenTypes/ValueTypes/Real.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.s /c C:\Users\Rudolph\Documents\GitHub\GPEC\Calculator\TokenTypes\ValueTypes\Real.cpp
+<<
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.requires:
+
+.PHONY : CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.requires
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.provides: CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\GPEC.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.provides.build
+.PHONY : CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.provides
+
+CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.provides.build: CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj
+
+
 # Object files for target GPEC
 GPEC_OBJECTS = \
 "CMakeFiles\GPEC.dir\main.cpp.obj" \
-"CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj"
+"CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj" \
+"CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj" \
+"CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj" \
+"CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj" \
+"CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj"
 
 # External object files for target GPEC
 GPEC_EXTERNAL_OBJECTS =
 
 GPEC.exe: CMakeFiles\GPEC.dir\main.cpp.obj
 GPEC.exe: CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj
+GPEC.exe: CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj
+GPEC.exe: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj
+GPEC.exe: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj
+GPEC.exe: CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj
 GPEC.exe: CMakeFiles\GPEC.dir\build.make
 GPEC.exe: CMakeFiles\GPEC.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GPEC.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GPEC.exe"
 	"C:\Program Files\JetBrains\CLion 2018.1.6\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\GPEC.dir --manifests  -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\GPEC.dir\objects1.rsp @<<
- /out:GPEC.exe /implib:GPEC.lib /pdb:E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\GPEC.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:GPEC.exe /implib:GPEC.lib /pdb:C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\GPEC.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -142,6 +270,10 @@ CMakeFiles\GPEC.dir\build: GPEC.exe
 
 CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\main.cpp.obj.requires
 CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Calculator\Calculator.cpp.obj.requires
+CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Calculator\Token.cpp.obj.requires
+CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Term.cpp.obj.requires
+CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Calculator\TokenTypes\Operators.cpp.obj.requires
+CMakeFiles\GPEC.dir\requires: CMakeFiles\GPEC.dir\Calculator\TokenTypes\ValueTypes\Real.cpp.obj.requires
 
 .PHONY : CMakeFiles\GPEC.dir\requires
 
@@ -150,6 +282,6 @@ CMakeFiles\GPEC.dir\clean:
 .PHONY : CMakeFiles\GPEC.dir\clean
 
 CMakeFiles\GPEC.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" E:\Rudolph\Documents\Projekte\GPEC E:\Rudolph\Documents\Projekte\GPEC E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug E:\Rudolph\Documents\Projekte\GPEC\cmake-build-debug\CMakeFiles\GPEC.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Rudolph\Documents\GitHub\GPEC C:\Users\Rudolph\Documents\GitHub\GPEC C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug C:\Users\Rudolph\Documents\GitHub\GPEC\cmake-build-debug\CMakeFiles\GPEC.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\GPEC.dir\depend
 
